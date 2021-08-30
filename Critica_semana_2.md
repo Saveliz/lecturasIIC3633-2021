@@ -1,0 +1,14 @@
+# Crítica de "Matrix factorization techniques for recommender systems"
+### Autores del paper: Koren, Y., Bell, R., & Volinsky, C. 
+
+## Resumen:
+Este paper habla sobre los beneficios de utilizar técnicas que consisten en factorización de matrices aplicadas en sistemas recomendadores y habla de diferentes técnicas que entran dentro de estas categorías. Da ejemplos empíricos de el éxito de estas técnicas en recomendar diferentes items, siendo el principal el Netflix Contest.
+
+## Reseña:
+Este paper, a diferencia del anterior, se siente mucho más aterrizado a un público no tan experto en el tema. Su corta duración y esquemas explicativos ayudan a entender la generalidad de lo que se está hablando sin tener que pensar mucho. Sin embargo, esa sensación desaparece cuando se comienza a adentrar más en el tema. Las fórmulas presentadas no son tan explicadas, y cuesta (al menos a mí), seguir el hilo y hacer la conexión de lo que se habla y lo que se muestra en las fórmulas. Un ejemplo claro de esto, es cuando se habla de normalizar la suma (dentro de la sección de bias). Ahí, se dice que normalizar es normalmente beneficioso, sin explicar el porqué, y muestran una fórmula con distintos exponentes multiplicando a las variables sin explicar el porqué de la elección de estos exponentes.
+
+Si no hubiese tenido una clase explicativa del tema antes no sé cuanto hubiese entendido del mismo tema. Sin embargo, como la tuve, fue un paper entretenido y que sirvió, hasta cierto punto, para mejorar mi entendimiento del mismo tema. En este sentido, las imágenes y diagramas ayudaron no sólo a entender mejor el tema, si no que a recordar lo visto en clases ya que el profesor usó las mismas imágenes. 
+
+Por el otro lado, al ser analizadas detenidamente, las imagenes pueden tener ciertos errores. Por ejemplo, en la figura 2 se toman ejes para calificar a las películas ya los usuarios. Estos son: sexo (orientado a hombres vs. orientado a mujeres), y realismo (serio vs. escapismo). Estos ejes parecen ser seleccionados arbitrariamente, ya que la misma idea de los metadatos obtenidos por estas técnicas es que el algoritmo encuentre ciertas relaciones no siempre distinguibles por los humanos. Por lo que el hecho de tener etiquetas tan claras genera desconfianza. Sin mencionar que alguien podría argumentar que "serio" no es opuesto a "escapismo". Si no que pueden coexistir. De la misma manera, también se podría argumentar que "Independance Day" es más seria que "Dumb & Dumber", que "The Princess Diary" tiene un "fanbase" de gente de sexo masculino, etc.
+
+En resumen, el Paper hizo un buen trabajo en explicar la generalidad del tema, pero si se decide aprender de este sólo usando este mismo, se pueden llegar a errores conceptuales y puede ser una experiencia muy dificil para quien tome tal decisión.
