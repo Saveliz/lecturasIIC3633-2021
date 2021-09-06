@@ -1,0 +1,11 @@
+# Crítica de "Evaluating recommendation systems."
+### Guy, S., & Gunawardana, A. 
+
+## Resumen:
+Este paper habla sobre las diferentes formas de evaluar un sistema recomendador. Se realizan experimentos en distintos ambientes(Offline, con un grupo reducido, y con un grupo más grande), analizando los resultados de cada uno y así evaluando cada algoritmo recomendador. Finalmente, existe una parte donde se discute sobre la información extraible de estos experimentos, y cómo evaluar si es información verídica.
+
+## Reseña:
+
+El clasificar los diferentes tipos de sistemas recomendadores es una herramienta extremadamente útil cuando se trata de comenzar a trabajar con datos. Un buen análisis de los datos a trabajar, junto con una consideración de la clasificación de los diferentes algoritmos puede resultar en un sistema recomendador certero y eficiente. Tal y como dice el paper, las diferentes compañías tienen bases de datos y usuarios que se comportan de maneras muy diferentes. Se da mucho el ejemplo de Amazon y Netflix, que tienen bases de datos con características similares. Para estas, se necesita un sistema recomendador escalable. De manera que siempre se pueda actualizar cuando se agrega material nuevo a la página. Si se intentara aplicar un algoritmo como UB-CF, este debería ser modificado para tratar el tema del "sparsity" de los datos. Con la evaluación de sistemas recomendadores, se puede llegar a la conclusión que UB-CF, por ejemplo, no es un mal sistema recomendador. Sólo que no está siendo aplicado a la base de datos correcta. Este podría ser aplicado, por ejemplo a un sistema de diagnóstico médico, donde se tienen todos los distintos datos de los pacientes, y no se genera este problema de la gran falta de datos que está presente en las bases de datos anteriormente discutidas.
+
+El paper hace un buen trabajo en poner en perspectiva las diferentes clases de situaciones a las cuales se puede ver sometido un algoritmo de recomendaciones. Alejandonos más de las utilidades típicas vistas previamente. También cabe destacar su consideración de atributos como diversidad, confianza, o qué sucede en casos de "cold start", lo que crea una cantidad bastante vasta de factores para analizar algoritmos, con tal de obtener la mayor cantidad posible de información sobre este antes de pensar en aplicarlo.
